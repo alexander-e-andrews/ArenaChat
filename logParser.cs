@@ -48,9 +48,7 @@ namespace chatwindow
                 line = streamy.ReadLine();
                 while (line != null && line != "")
                 {
-                    
-                    Console.WriteLine(line);
-                    
+                   
                         if (line.Contains(isLoginLine))
                         {
                             Match matchy = reg.Match(line);

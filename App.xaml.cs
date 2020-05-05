@@ -26,9 +26,9 @@ namespace chatwindow
             // Application is running
             // Process command line args
             //Sleep just a tad to make sure user has opened mtga and it has had time to start logging
-            //Thread.Sleep(10000);
+            Thread.Sleep(3000);
 
-            //CloseOnMTGClose();
+            CloseOnMTGClose();
 
             logParser.OpenLogFile();
             Console.WriteLine("Before get username");
