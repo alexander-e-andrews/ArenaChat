@@ -14,7 +14,7 @@ namespace chatwindow
     class internetManager
     {
         static ClientWebSocket websocks;
-        private const string connectionString = "ws://localhost:8080/chat?username={0}&opponent={1}";
+        private const string connectionString = "ws://35.226.104.102:8080/chat?username={0}&opponent={1}";
 
         static internetManager()
         {
